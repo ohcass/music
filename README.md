@@ -58,6 +58,16 @@ radii5 <url> --threads 16 --workers 6                 # tune performance
 | `--quality`, `-q` | `1080` | Video height: `144`, `240`, `360`, `480`, `720`, `1080`, `1440`, `2160` |
 | `--mp4` | — | Shortcut for `--type video`. Optionally followed by quality (e.g. `--mp4 720`) |
 
+### To Remove
+go to C:\Users\%userprofile% and delete radii5.exe in .radii5 or 
+Windows
+
+Remove-Item "$env:USERPROFILE\.radii5\bin\radii5.exe"
+
+Linux / macOS
+
+rm ~/.radii5/bin/radii5
+
 ## Features
 
 - **Audio download**: Downloads best available audio, converts to MP3 (LAME V2) with metadata tags
